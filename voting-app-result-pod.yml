@@ -8,7 +8,7 @@ metadata:
     type: frontend
 spec:
   containers:
-    - name: votingapp_result-image
+    - name: votingapp-result-image
       image: dockersamples/examplevotingapp_result
       ports:
-      - containersPort: 80
+       - containerPort: 80

@@ -10,6 +10,7 @@ spec:
         metadata:
           name: voting-app-vote
           labels:
+            name: voting-app-vote
             app: voting-app
             type: frontend
         spec:
@@ -17,8 +18,8 @@ spec:
             - name: votingapp-image
               image: dockersamples/examplevotingapp_vote
               ports:
-                - containersPort: 80
+                - containerPort: 80
     replicas: 3
     selector:
         matchLabels:
-            name: deploy-votingapp-vote
+            name: voting-app-vote

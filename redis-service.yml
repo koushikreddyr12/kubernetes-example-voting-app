@@ -6,7 +6,7 @@ metadata:
     name: redis-service
     app: voting-app
     type: DB
-sepc:
+spec:
   ports:
     - port: 6372 
       targetPort: 6372

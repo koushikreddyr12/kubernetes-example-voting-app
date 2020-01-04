@@ -6,7 +6,8 @@ metadata:
     name: result-service
     app: voting-app
     type: frontend
-sepc:
+spec:
+  type: LoadBalancer
   ports:
     - port: 80 
       targetPort: 80

@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: redis-DB
+  name: redis-db
   labels:
     name: redis-pod
     app: voting-app
@@ -11,4 +11,4 @@ spec:
     - name: redis
       image: redis
       ports:
-        - containersPort: 6379
+        - containerPort: 6379
