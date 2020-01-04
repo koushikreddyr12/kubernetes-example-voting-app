@@ -8,8 +8,8 @@ metadata:
 spec:
   template:
     metadata:
-    name: voting-app-worker
-    labels:
+      name: voting-app-worker
+      labels:
         name: voting-app-worker
         app: voting-app
         type: worker-pod
